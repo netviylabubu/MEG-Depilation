@@ -1,105 +1,58 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Депіляційний салон Дарії</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background: #fff8f0;
-    color: #333;
-    margin: 0; padding: 0;
-  }
-  header {
-    background: #ff7f50;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
-  header h1 {
-    margin: 0;
-    font-size: 2.5em;
-  }
-  main {
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 0 20px;
-  }
-  h2 {
-    border-bottom: 2px solid #ff7f50;
-    padding-bottom: 10px;
-  }
-  ul.services {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  ul.services li {
-    background: #ffe6d1;
-    margin: 10px 0;
-    padding: 15px 20px;
-    border-radius: 8px;
-    font-size: 1.1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  ul.services li span {
-    flex: 1 1 auto;
-  }
-  ul.services li span:last-child {
-    flex: 0 0 auto;
-    font-weight: bold;
-    color: #d14b1f;
-  }
-  footer {
-    text-align: center;
-    padding: 15px 10px;
-    font-size: 0.9em;
-    color: #777;
-  }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Депіляційний салон Дарії</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
 
-  /* Адаптивність */
-  @media (max-width: 480px) {
-    header h1 {
-      font-size: 1.8em;
-      padding: 0 10px;
+    header {
+      background-color: #ffdddd;
+      padding: 20px;
+      text-align: center;
     }
-    main {
-      max-width: 90%;
-      margin: 20px auto;
-      padding: 0 10px;
+
+    h1 {
+      margin: 0;
     }
-    ul.services li {
-      flex-direction: column;
-      align-items: flex-start;
+
+    .content {
+      padding: 20px;
     }
-    ul.services li span:last-child {
-      margin-top: 8px;
-      font-size: 1.2em;
+
+    .service {
+      margin-bottom: 15px;
+      padding: 10px;
+      background: #f9f9f9;
+      border-left: 5px solid #ff9999;
     }
-  }
-</style>
-</head> 
+  </style>
+</head>
 <body>
-<header>
-  <h1>Депіляційний салон Дарії</h1>
-</header>
+  <header>
+    <h1>Депіляційний салон Дарії</h1>
+  </header>
 
-<main>
-  <h2>Послуги та ціни</h2>
-  <ul class="services">
-    <li><span>Депіляція зони бікіні</span> <span>500 грн</span></li>
-    <li><span>Депіляція підмишок</span> <span>300 грн</span></li>
-    <li><span>Депіляція ніг</span> <span>800 грн</span></li>
-    <li><span>Депіляція обличчя</span> <span>400 грн</span></li>
-  </ul>
-</main>
-
-<footer>
-  <p>Контакти: +38 (XXX) XXX-XX-XX | Адреса: [Вкажи адресу]</p>
-</footer>
+  <div class="content">
+    <div class="service">
+      <strong>Зона бікіні:</strong> 300 грн
+    </div>
+    <div class="service">
+      <strong>Підмишки:</strong> 150 грн
+    </div>
+    <div class="service">
+      <strong>Ноги:</strong> 400 грн
+    </div>
+    <div class="service">
+      <strong>Лице:</strong> 200 грн
+    </div>
+  </div>
 </body>
 </html>
